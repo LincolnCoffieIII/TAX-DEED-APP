@@ -1,0 +1,36 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+**/tmp
+
+# Ignore all system-specific files
+*.DS_Store
+*.swp
+*.swo
+
+# Ignore coverage reports
+/coverage/
+/coverage/*
+
+# Ignore environment-specific files
+.env
+
+# Ignore compiled files
+/public/assets
+
+# Ignore any binary files
+*.o
+*.pyc
+*.pyo
+*.rbc
+*.sassc
+
+# Ignore byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+/node_modules

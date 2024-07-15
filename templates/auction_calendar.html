@@ -1,0 +1,9 @@
+<div id="auction-calendar">
+    {% for auction in auctions %}
+    <div class="auction">
+        <p>Property ID: {{ auction.property_id }}</p>
+        <p>Date: {{ auction.date }}</p>
+        <p>Starting Bid: ${{ auction.starting_bid }}</p>
+    </div>
+    {% endfor %}
+</div>
